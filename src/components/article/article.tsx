@@ -1,5 +1,5 @@
 import type React from 'react';
-import consmos02 from '/src/images/cosmos02.webp'
+import consmos02 from '@/images/cosmos02.webp'
 
 export const Article = (): React.JSX.Element => {
   return (
