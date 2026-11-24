@@ -22,7 +22,7 @@ export const BASIC_COLORS: OptionItem[] = [ // наполняем реальны
   { title: 'Синий', value: '#0000FF', className: 'blue', },
 ];
 
-export const DAFAULT_SETTING: ArticleSettings = { // создаем деволтное состояние шрифта и цветов страницы
+export const DEFAULT_SETTING: ArticleSettings = { // создаем деволтное состояние шрифта и цветов страницы
   fontFamily: FONT_OPTIONS[0],
   fontSize: 18,
   containerWidth: 1000,

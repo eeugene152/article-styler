@@ -1,9 +1,10 @@
 import type React from 'react';
 import consmos02 from '@/images/cosmos02.webp'
+import styles from './article.module.scss'
 
 export const Article = (): React.JSX.Element => {
   return (
-    <article>
+    <article className={styles.article}>
       <h1>
         Спутники Земли: сколько их, какие бывают и для чего нужны
       </h1>

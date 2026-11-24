@@ -1,0 +1,7 @@
+.article {
+  max-width: var(--container-width, 1000px);
+  margin: 0 auto;
+  font-family: var(--font-family, 'Open Sans');
+  font-size: var(--font-size, 18px);
+  color: var(--font-color, #000)
+}
